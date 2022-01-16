@@ -16,13 +16,13 @@
         }
 
         a {
-            color: #82BB9B;
+            color: white;
             text-decoration: none;
         }
 
-
         .header {
-            background-color: #82BB9B;
+            background-color: #75ACFF;
+            min-width: 750px;
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -31,20 +31,38 @@
 
         .title {
             /* background-color: yellow; */
-            padding-left: 20px;
+            margin: 10px 0px 10px 50px;
             color: white;
+            display: flex;
+            flex-flow: column;
+        }
+
+        .title1 {
+            /* background-color: brown; */
+            padding-top: 10px;
+            margin: 0px;
+            display: flex;
+            justify-content: right;
+        }
+
+        .title2 {
+            /* background-color: brown; */
+            padding-bottom: 10px;
+            margin: 0px;
+            display: flex;
+            justify-content: right;
         }
 
         .nav {
             /* background-color: tomato; */
-            width: auto;
+            width: 350px;
+            margin-right: 50px;
             display: flex;
             flex-flow: row;
             justify-content: space-between;
         }
 
         .bottom {
-            background-color: white;
             padding: 5px 10px;
             margin: 0px 10px;
             border-radius: 5px;
@@ -56,7 +74,8 @@
     <header>
         <div class="header" ;>
             <div class="title" ;>
-                <h1>Título</h1>
+                <h2 class="title1">TÍTULO DE LA PÁGINA</h2>
+                <h2 class="title2">subtítulo</h2>
             </div>
             <div>
                 <nav class="nav" ;>
